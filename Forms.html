@@ -1,0 +1,64 @@
+
+Text Input: 
+    <input type="text" name="first_name">
+
+Number Inputs:
+    <input type="number" name="age">
+
+Passwords:
+    <input type="password" name="password">
+
+Date:
+    <input type="date" name="dob">
+
+Color:
+    <input type="color" name="text_color">
+
+Radio:
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="bold"><strong>Bold</strong></label>
+    <input type="radio" name="font" value="normal" id="normal">
+    <label for="normal">Normal</label>
+
+Checkbox:
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">I agree</label>
+
+Textarea:
+    <textarea name="comment" cols="20" rows="3"></textarea>
+
+Select:
+    <select name="snack">
+        <option>Almonds</option>
+        <option>Cheese and Crackers</option>
+        <option>Pita and Hummus</option>
+        <option>Pears</option>
+    </select>
+
+
+Common Form:
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">I would like 
+            to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!" >
+    </form>
+
+<!-- The <div></div> element exists for us to create a division in our code where we 
+    can group tags that have a common purpose together. In the example above we do this 
+    so that the <label> and <input> tags are lined up next to each other. As we learn 
+    more about HTML we'll see many cases where using a div will let us define boxes 
+    of content or (with enough styling) they can be made into any shape we can think of.-->
